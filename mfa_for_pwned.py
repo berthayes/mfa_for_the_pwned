@@ -52,7 +52,7 @@ def parse_args():
 	          It then checks those email addresses and usernames against the haveibeenpwnd.com API.  
 	        If the account has been pwned, it is moved to a strict MFA group in Duo''')
 	parser.add_argument('-f', dest='conf_file', action='store', help='config file')
-	parser.add_argument('-m', dest='method', action='store', help='HTTP method - e.g. GET or POST')
+	#parser.add_argument('-m', dest='method', action='store', help='HTTP method - e.g. GET or POST')
 	#parser.add_argument('-p', dest='path', action='store', help='path or API endpoint to hit')
 	parser.add_argument('--duo_api_params', dest='params', action='store', help='parameters to pass to the API', nargs='*', type=str)
 	parser.add_argument('--create_group', dest='create_group', action='store_true', help='Create a group in Duo')
