@@ -11,7 +11,7 @@ If you don't play by the rules, you'll be blocked.
 YOU MUST SPECIFY A UNIQUE USER-AGENT STRING IN YOUR CONFIG
 THIS SCRIPT WILL NOT RUN UNLESS YOU EDIT THE .CFG FILE
 
-Sorry for yelling.  The fine folks at haveibeenpwned.com as that you use a unique user-agent string during your API access.  Please be cool and follow the rule.
+Sorry for yelling.  The fine folks at haveibeenpwned.com ask that you use a unique user-agent string during your API access.  Please be cool and follow the rule.
 
 When creating permissions in the Duo Admin panel for this instance of API access, include the following:
   <ul>
