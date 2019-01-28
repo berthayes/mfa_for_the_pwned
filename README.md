@@ -21,6 +21,7 @@ When creating permissions in the Duo Admin panel for this instance of API access
   <li>Grant Write Resource
   
 
+<pre>
 usage: mfa_for_pwned.py [-h] [-f CONF_FILE] [-m METHOD]
                         [--duo_api_params [PARAMS [PARAMS ...]]]
                         [--create_group] [-pwn] [-ua USERAGENT]
@@ -40,3 +41,4 @@ optional arguments:
   -pwn                  if true, check for haveibeenpwned.com
   -ua USERAGENT         set the user-agent string for haveibeenpwned.com
   --add_to_group        add popt users to strict MFA group
+  </pre>
