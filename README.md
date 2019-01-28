@@ -34,7 +34,6 @@ API. If the account has been pwned, it is moved to a strict MFA group in Duo
 optional arguments:
   -h, --help            show this help message and exit
   -f CONF_FILE          config file
-  -m METHOD             HTTP method - e.g. GET or POST
   --duo_api_params [PARAMS [PARAMS ...]]
                         parameters to pass to the API
   --create_group        Create a group in Duo
