@@ -20,3 +20,23 @@ When creating permissions in the Duo Admin panel for this instance of API access
   <li>Grant Read Resource
   <li>Grant Write Resource
   
+
+usage: mfa_for_pwned.py [-h] [-f CONF_FILE] [-m METHOD]
+                        [--duo_api_params [PARAMS [PARAMS ...]]]
+                        [--create_group] [-pwn] [-ua USERAGENT]
+                        [--add_to_group]
+
+This script pulls down a list of email addresses from the Duo Admin API. It
+then checks those email addresses and usernames against the haveibeenpwnd.com
+API. If the account has been pwned, it is moved to a strict MFA group in Duo
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f CONF_FILE          config file
+  -m METHOD             HTTP method - e.g. GET or POST
+  --duo_api_params [PARAMS [PARAMS ...]]
+                        parameters to pass to the API
+  --create_group        Create a group in Duo
+  -pwn                  if true, check for haveibeenpwned.com
+  -ua USERAGENT         set the user-agent string for haveibeenpwned.com
+  --add_to_group        add popt users to strict MFA group
