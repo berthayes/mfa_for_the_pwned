@@ -1,6 +1,6 @@
 # mfa_for_the_pwned
 
-This script pulls a list of user_ids and email addresses from Duo using the Admin API, then checks those email addresses against the haveibeenpwned.com database.  If the email address has been pwned, then move it to a group in Duo that is restricted to using ONLY the Duo Mobile App and push for MFA.
+This script pulls a list of user_ids and email addresses from Duo using the Admin API, then checks those email addresses against the haveibeenpwned.com database.  If the email address has been pwned, then move that user to a group in Duo that is restricted to using ONLY the Duo Mobile App and push for MFA.
 
 For an overview of the Duo Admin API: https://duo.com/docs/adminapi
 
