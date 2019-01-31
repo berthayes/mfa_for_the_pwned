@@ -287,23 +287,3 @@ for pair in user_info:
 			elif response == 404:
 				verboseprint("user_id with email", email_addy, "is not found")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
